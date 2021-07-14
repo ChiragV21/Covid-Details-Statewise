@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+    border:1px solid black
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+thead,tbody{
+    border: 1px solid black;
+}
+
+.header{
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    background-color:aliceblue;
+    font-size: 22px;
+     
+}
+
+tbody:nth-child(even) {
+        background-color: #f2f2f2;
+}
